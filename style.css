@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  width: 1920px;
+  height: 109px;
+  background-color: #020202;
+  
+}
+
+header .grid {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header .cabecalho {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#items_menu {
+  width: 720px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#items_menu a {
+  text-decoration: none;
+  color: white;
+  
+  
+  font-family: 'Fira Code', monospace;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 46px;
+  text-transform: uppercase;
+}
